@@ -5,14 +5,14 @@ This repository implements a reproducible workflow for mapping and analyzing urb
 ---
 
 ## 📂 Repository Structure
-.
+
 ├── data/                       # Raw input data (rasters, shapefiles)
 │   ├── GHS_POP_*.tif           # Copernicus population tiles
 │   ├── GHS_BUILT_S_*.tif       # Copernicus built-up tiles
 │   ├── GHS_LAND_*.tif          # Copernicus land-fraction tiles
 │   ├── VNL_*.tif               # VIIRS nighttime-lights composite
 │   ├── LC09_*_B4.TIF           # Landsat red band
-│   ├── LC09_*_B5.TIF           # Landsat nir band
+│   ├── LC09_*_B5.TIF           # Landsat NIR band
 │   └── gun_violence_nonfatal.shp  # Chicago shooting incidents
 │
 ├── scripts/                    # Analysis scripts
@@ -28,9 +28,6 @@ This repository implements a reproducible workflow for mapping and analyzing urb
 │
 ├── README.md                   # This file
 └── .gitignore                  # Ignore raw data, .Rproj.user, etc.
-
-
-
 ---
 
 ## 🛠️ Prerequisites
