@@ -57,3 +57,15 @@ install.packages(c(
 
 library(tidycensus)
 census_api_key("YOUR_KEY_HERE", install = TRUE)
+
+## Data Sources
+
+| Data Source                                    | Variable                                           | URL                                                                                                                                                      |
+| ---------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **USGS EarthExplorer**                         | NDVI (Landsat 9 surface reflectance bands)         | [https://earthexplorer.usgs.gov/](https://earthexplorer.usgs.gov/)                                                                                       |
+| **Copernicus GHS-POP**                         | Population density (inh/km²)                       | [https://human-settlement.emergency.copernicus.eu/download.php?ds=pop](https://human-settlement.emergency.copernicus.eu/download.php?ds=pop)             |
+| **Copernicus GHS-BUILT-S**                     | Built-up area (m² built per km² cell)              | [https://human-settlement.emergency.copernicus.eu/download.php?ds=built-s](https://human-settlement.emergency.copernicus.eu/download.php?ds=built-s)     |
+| **Earth Observation Group (Payne Institute)**  | Nighttime lights radiance (VIIRS DNB, nW/cm²/sr)   | [https://eogdata.mines.edu/products/vnl/](https://eogdata.mines.edu/products/vnl/)                                                                       |
+| **University of Wisconsin Neighborhood Atlas** | Area Deprivation Index (ADI)                       | [https://www.neighborhoodatlas.medicine.wisc.edu/](https://www.neighborhoodatlas.medicine.wisc.edu/)                                                     |
+| **U.S. Census Bureau (via tidycensus / API)**  | Block-group total population (Decennial & ACS5)    | [https://api.census.gov/data.html](https://api.census.gov/data.html)                                                                                     |
+| **Chicago Data Portal (Socrata)**              | Non-fatal firearm incidents (People Shot, Chicago) | [https://data.cityofchicago.org/Public-Safety/People-Shot-Chicago/ijzp-q8t2](https://data.cityofchicago.org/Public-Safety/People-Shot-Chicago/ijzp-q8t2) |
