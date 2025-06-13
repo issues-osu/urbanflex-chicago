@@ -5,7 +5,7 @@ This repository implements a reproducible workflow for mapping and analyzing urb
 ---
 
 ## 📂 Repository Structure
-
+```
 ├── data/                       # Raw input data (rasters, shapefiles)
 │   ├── GHS_POP_*.tif           # Copernicus population tiles
 │   ├── GHS_BUILT_S_*.tif       # Copernicus built-up tiles
@@ -28,8 +28,8 @@ This repository implements a reproducible workflow for mapping and analyzing urb
 │
 ├── README.md                   # This file
 └── .gitignore                  # Ignore raw data, .Rproj.user, etc.
+```
 ---
-
 ## 🛠️ Prerequisites
 
 - **R ≥ 4.0** with the following packages:
